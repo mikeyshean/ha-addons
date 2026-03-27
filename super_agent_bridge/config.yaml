@@ -1,6 +1,6 @@
 name: Super Agent Bridge
 description: Proxies Supervisor API requests from Super Agent over Tailscale
-version: "1.0.5"
+version: "1.0.6"
 slug: super_agent_bridge
 url: https://github.com/mikeyshean/ha-addons
 arch:
