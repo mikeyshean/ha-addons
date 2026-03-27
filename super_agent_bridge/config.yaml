@@ -1,0 +1,16 @@
+name: Super Agent Bridge
+description: Proxies Supervisor API requests from Super Agent over Tailscale
+version: "1.0.0"
+slug: super_agent_bridge
+url: https://github.com/mikeyshean/ha-addons
+arch:
+  - amd64
+  - aarch64
+hassio_api: true
+hassio_role: admin
+ports:
+  8099/tcp: 8099
+options:
+  bridge_secret: ""
+schema:
+  bridge_secret: "str"
