@@ -1,2 +1,2 @@
-#!/usr/bin/with-contenv bashio
+#!/command/with-contenv sh
 exec python3 /run.py
