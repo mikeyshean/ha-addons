@@ -3,6 +3,8 @@ FROM ${BUILD_FROM}
 
 RUN apk add --no-cache python3 py3-aiohttp
 
+COPY run.sh /
 COPY run.py /
+RUN chmod a+x /run.sh
 
-CMD ["python3", "/run.py"]
+CMD ["/run.sh"]

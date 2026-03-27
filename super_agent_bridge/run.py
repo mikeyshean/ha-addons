@@ -75,7 +75,7 @@ def main() -> None:
     app.router.add_get("/health", health)
     app.router.add_post("/supervisor", supervisor_proxy)
 
-    print(f"Super Agent Bridge starting on port 8099")
+    print("Super Agent Bridge starting on port 8099")
     web.run_app(app, host="0.0.0.0", port=8099)
 
 
